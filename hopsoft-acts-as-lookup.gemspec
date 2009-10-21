@@ -14,26 +14,37 @@ Gem::Specification.new do |s|
   s.email = %q{natehop@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE",
+     "README",
      "README.rdoc"
   ]
   s.files = [
     ".document",
      ".gitignore",
      "LICENSE",
+     "README",
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "acts_as_lookup.gemspec",
+     "hopsoft-acts-as-lookup-0.1.0.gem",
+     "hopsoft-acts-as-lookup.gemspec",
+     "init.rb",
+     "install.rb",
      "lib/hopsoft/acts_as_lookup.rb",
+     "tasks/acts_as_lookup_tasks.rake",
+     "test/acts_as_lookup_test.rb",
      "test/helper.rb",
-     "test/test_hopsoft_acts_as_lookup.rb"
+     "test/test_hopsoft_acts_as_lookup.rb",
+     "uninstall.rb"
   ]
-  s.homepage = %q{http://github.com/hopsoft/hopsoft_acts_as_lookup}
+  s.homepage = %q{http://github.com/hopsoft/acts_as_lookup}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.5}
   s.summary = %q{Lookup tables made easy for ActiveRecord}
   s.test_files = [
-    "test/helper.rb",
+    "test/acts_as_lookup_test.rb",
+     "test/helper.rb",
      "test/test_hopsoft_acts_as_lookup.rb"
   ]
 
