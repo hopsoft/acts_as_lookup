@@ -4,11 +4,11 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "hopsoft_acts_as_lookup"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.name = "hopsoft-acts-as-lookup"
+    gem.summary = "Lookup tables made easy for ActiveRecord"
+    gem.description = "Powerful lookup table behavior added to ActiveRecord."
     gem.email = "natehop@gmail.com"
-    gem.homepage = "http://github.com/hopsoft/hopsoft_acts_as_lookup"
+    gem.homepage = "http://github.com/hopsoft/acts_as_lookup"
     gem.authors = ["Nathan Hopkins"]
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings

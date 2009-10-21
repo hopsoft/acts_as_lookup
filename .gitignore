@@ -19,3 +19,6 @@ rdoc
 pkg
 
 ## PROJECT::SPECIFIC
+.idea
+project_settings.xml
+Project_Default.xml
